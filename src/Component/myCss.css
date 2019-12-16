@@ -1,0 +1,73 @@
+body {
+  background-color: lightblue;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+}
+
+fieldset {
+  background-color: bisque;
+  text-align: left;
+  padding: 25px;
+  display: block;
+  flex: auto;
+  font-size: small;
+}
+
+.form-smart {
+  padding: 7px;
+  display: grid;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 3px;
+  border-radius: 8px;
+  border: 2px;
+}
+
+.list-show {
+  padding: 10px;
+  margin-top: 3px;
+  border-radius: 8px;
+  border: 2px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  text-align: center;
+}
+
+label {
+  font-weight: 700;
+  font-style: italic;
+  color: red;
+  display: block;
+  flex: 0px;
+  font-family: fantasy;
+  font-size: 15px;
+  text-align: center;
+}
+
+legend {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 20px;
+  background: black;
+  color: white;
+  font-weight: 900;
+  padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
